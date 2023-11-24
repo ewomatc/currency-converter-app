@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cu-Xchange</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<h3>
+				Convert between different currencies with the latest exchange rates.
+			</h3>
+			<h5>Currency conversion service provided by API Layer</h5>
+			<form id="currency-converter">
+				<div id="from-div">
+					<label for="from">From</label>
+					<input type="text" id="from" required placeholder="USD" />
+				</div>
+				<div id="to-div">
+					<label for="to">To</label>
+					<input type="text" id="to" required placeholder="NGN" />
+				</div>
+				<div id="amount-div">
+					<label for="amount">Amount</label>
+					<input type="number" name="amount" id="amount" required />
+				</div>
+				<button type="submit">Convert</button>
+			</form>
+
+			<p id="result"></p>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
+</html>
